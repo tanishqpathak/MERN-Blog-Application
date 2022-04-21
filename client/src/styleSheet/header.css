@@ -1,0 +1,83 @@
+.navbar{
+    display: flex;
+    width: 65%;
+    float: right;
+    margin: auto;
+    padding: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #181818;
+    font-family: 'Montserrat';
+}
+
+.navbar-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.navbar-links > li{
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    cursor: pointer;    
+    transition: all 0.25s ease-in-out;
+    border-bottom: 2px solid white;
+    margin-left: 30px;
+}
+
+.navbar-links > li:hover{
+    border-bottom: 2px solid #181818;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    float: right;
+    font-size: 26px;
+    flex: 1;
+    padding-right: 10px;
+    margin-left: 100px;
+}
+.logo > i{
+    float: right;
+    cursor: pointer;
+}
+
+.logo > input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #151515;
+    width: 50%;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.settings{
+    color: #181818;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.settings:hover{
+    color: black;
+}
+
+.search::placeholder{
+    border: none;
+    padding-bottom: 5px;
+    color: #181818;
+    font-family: 'Montserrat';
+    outline: none;
+}
+
+.links{
+    list-style: none;
+    text-decoration: none;
+    color: #181818;
+    padding: 0;
+}

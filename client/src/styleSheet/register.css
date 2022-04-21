@@ -1,0 +1,73 @@
+.regSection{
+    background-color: #232323;
+    color: white;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.75));
+    height: 560px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.regPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regPart > h1{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: white;
+    filter: none;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.regP::placeholder{
+    color: white;
+    background: none;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.regForm{
+    margin-top: 30px;
+}
+
+.regForm > input[type="text"]{
+    background: none;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    color: white;
+    font-weight: 200;
+}
+.regForm > input[type="password"]{
+    background: none;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    color: white;
+    font-weight: 200;
+}
+
+.regForm > input[type="button"]{
+    font-family: 'Montserrat';
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 7px 15px;
+    margin-top: 10px;
+    transition: all 0.25s ease-in-out;
+}
+
+.regForm > input[type="button"]:hover{
+    background-color: white;
+    color: #181818;
+}
+
+.logPart{
+    height: 500px;
+}
+
