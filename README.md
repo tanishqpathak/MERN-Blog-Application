@@ -1,5 +1,5 @@
 # MERN Blog Application
-This project is a blog application built using MERN Stack.
+This project is a blog application built using MERN stack. Project includes multer for image uploading and management, useContext hook for user verification and bcrypt.js for hasing of passwords.
 
 ## Screenshots
 
