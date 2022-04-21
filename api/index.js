@@ -6,14 +6,16 @@ const postRoute = require("./routes/posts");
 const categoryRoute = require("./routes/categories");
 const multer = require("multer")
 const path = require("path")
+const dotenv = reaquire("dotenv")
 
 const app = express();
 
-const DB = `mongodb+srv://tanishq:Hesoyam07@cluster0.osbxw.mongodb.net/blogapp?retryWrites=true&w=majority`
+dotenv.config();
+
 app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
-mongoose.connect(DB)
+mongoose.connect(process.env.MONGO_URL)
 .then(console.log("Connected to MongoDB"))
 .catch( (err) => console.log(err) );
 
